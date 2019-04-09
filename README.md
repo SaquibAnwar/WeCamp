@@ -1,6 +1,7 @@
 # CampSite
 
 > A Node.js web application project to explore camping sites.
+you can extract the whole projects using v11.tar.gz file only.
 
 
 ## Features
