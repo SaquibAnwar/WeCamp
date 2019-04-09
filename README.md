@@ -1,4 +1,4 @@
-# CampSite
+# WeCamp
 
 > A Node.js web application project to explore camping sites.
 
@@ -56,7 +56,7 @@
 ### Clone or download this repository
 
 ```sh
-git clone https://github.com/SaquibAnwar/CampSite.git
+git clone https://github.com/SaquibAnwar/WeCamp.git
 ```
 
 
