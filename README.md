@@ -2,7 +2,7 @@
 
 > A Node.js web application project to explore camping sites.
 
-![](images/landing.png)
+![](images/landing.https://github.com/SaquibAnwar/WeCamp/blob/master/images/langing.png?raw=truepng)
 
 ## Features
 
