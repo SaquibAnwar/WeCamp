@@ -108,4 +108,3 @@ Some comments in the source code are personal notes and therefore might not seem
 * [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io)
 
 #### [MIT](./LICENSE)
-# WeCamp
