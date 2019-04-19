@@ -2,6 +2,8 @@
 
 > A Node.js web application project to explore camping sites.
 
+![](images/landing.png)
+
 ## Features
 
 * Authentication:
