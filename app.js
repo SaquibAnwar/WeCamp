@@ -1,3 +1,4 @@
+// requiring all the libraries
 var express     = require("express"),
     app         = express(),
     bodyParser  = require("body-parser"),
@@ -10,7 +11,7 @@ var express     = require("express"),
     Comment     = require("./models/comment"),
     User        = require("./models/user"),
     seedDB      = require("./seeds")
-    
+
 //requiring routes
 var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),

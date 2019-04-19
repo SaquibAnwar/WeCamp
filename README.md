@@ -2,9 +2,6 @@
 
 > A Node.js web application project to explore camping sites.
 
-#### You can extract the whole projects using v11.tar.gz file only.
-
-
 ## Features
 
 * Authentication:
