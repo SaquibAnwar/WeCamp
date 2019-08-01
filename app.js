@@ -18,7 +18,16 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 
-mongoose.connect("mongodb://localhost/yelp_camp_v9", { useNewUrlParser: true });
+mongoose.connect(
+    "mongodb+srv://WeCamp:wecamp@cluster0-umabd.mongodb.net/test?retryWrites=true&w=majority",
+    {
+        useMongoClient: true
+    }
+);
+
+
+
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
@@ -52,6 +61,10 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("WeCamp Server Has Started!");
+// app.listen(process.env.PORT, process.env.IP, function(){
+//    console.log("WeCamp Server Has Started!");
+// });
+
+app.listen(8881, function(){                                                    // to start the server
+    console.log("The Sever has Started!");
 });
