@@ -61,10 +61,10 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 
-// app.listen(process.env.PORT, process.env.IP, function(){
-//    console.log("WeCamp Server Has Started!");
-// });
-
-app.listen(8881, function(){                                                    // to start the server
-    console.log("The Sever has Started!");
+app.listen(process.env.PORT, process.env.IP, function(){
+   console.log("WeCamp Server Has Started!");
 });
+
+// app.listen(8881, function(){                                                    // to start the server
+//     console.log("The Sever has Started!");
+// });
