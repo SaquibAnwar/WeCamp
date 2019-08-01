@@ -21,7 +21,8 @@ var commentRoutes    = require("./routes/comments"),
 mongoose.connect(
     "mongodb+srv://WeCamp:wecamp@cluster0-umabd.mongodb.net/test?retryWrites=true&w=majority",
     {
-        useMongoClient: true
+        // useMongoClient: true
+        useNewUrlParser: true
     }
 );
 
