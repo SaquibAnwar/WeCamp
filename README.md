@@ -57,7 +57,7 @@
 
 
 ### You can check out the web page on the following link :
-[a link](http://wecamped.herokuapp.com/)
+[wecamped.herokuapp.com](http://wecamped.herokuapp.com/)
 
 
 
