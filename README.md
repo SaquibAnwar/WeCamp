@@ -55,6 +55,12 @@
 
 > This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
 
+
+### You can check out the web page on the following link :
+[a link](http://wecamped.herokuapp.com/)
+
+
+
 ### Clone or download this repository
 
 ```sh
